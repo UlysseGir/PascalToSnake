@@ -1,4 +1,6 @@
-var assert = require('assert');
+import assert from "assert";
+import {pascalToSnake} from "../js/app.js";
+
 describe('Array', function () {
   describe('#indexOf()', function () {
     it('should return -1 when the value is not present', function () {
@@ -28,7 +30,4 @@ describe("pascalToSnake", function(){
     assert.equal(pascalToSnake(1), "1");
   });
 });
-
-
-
 
